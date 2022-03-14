@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/jimavictor/3-column-preview-card-component)
-- Live Site URL: [live site URL](https://jimavictor.github.io/3-column-preview-card-component/)
+- Live Site URL: [Live site URL](https://jimavictor.github.io/3-column-preview-card-component/)
 
 ## My process
 
