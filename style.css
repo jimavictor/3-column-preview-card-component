@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Lexend+Deca&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f2f2f2;
+}
+
+main {
+  max-width: 328px;
+  margin: 20px;
+}
+
+article {
+  color: white;
+}
+
+.card {
+  padding: 43px;
+}
+
+.card--sedans {
+  background-color: #e38826;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card--sedans .card__button {
+  color: #e38826;
+}
+
+.card--suv {
+  background-color: #006970;
+}
+
+.card--suv .card__button {
+  color: #006970;
+}
+
+.card--luxury {
+  background-color: #004241;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.card--luxury .card__button {
+  color: #004241;
+}
+
+.card__img {
+  margin-bottom: 20px;
+}
+
+.card__heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.card__text {
+  margin-bottom: 26px;
+  color: rgba(255, 255, 255, 0.75);
+  min-width: 170px;
+}
+
+.card__button {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  width: 135px;
+  background-color: #f2f2f2;
+  padding: 10px 25px;
+  border-radius: 40px;
+  border: none;
+}
+
+.card__button:hover {
+  cursor: pointer;
+  color: #f2f2f2;
+  background-color: transparent;
+  border: 1px solid #f2f2f2;
+}
+
+@media only screen and (min-width: 900px) {
+  body {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main {
+    min-width: 833px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  article {
+    margin-bottom: 60px;
+  }
+  .card__text {
+    max-width: 160px;
+  }
+  .card--sedans {
+    border-radius: 10px 0px 0px 10px;
+  }
+  .card--luxury {
+    border-radius: 0px 10px 10px 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
