@@ -89,6 +89,10 @@ main {
 }
 
 @media (min-width: 768px) {
+  body {
+    padding: 0px;
+  }
+
   main {
     max-width: 920px;
     flex-direction: row;
