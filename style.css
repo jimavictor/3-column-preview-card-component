@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -68,6 +67,11 @@ main {
   line-height: 25px;
 }
 
+.link:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
 .heading {
   color: #f2f2f2;
   font-family: "Big Shoulders", sans-serif;
@@ -88,6 +92,10 @@ main {
   main {
     max-width: 920px;
     flex-direction: row;
+  }
+
+  .link {
+    margin-top: 83px;
   }
 
   .section.sedans {
